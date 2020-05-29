@@ -14,13 +14,13 @@ example:
 ```
 nmap 127.0.0.1 |tee nmap.txt
 ```
-![tee](images/image%20(1).png)
+![tee](images/image.png)
 
 ### Using grep and cut to get proper output
 ```
 nmap 127.0.0.1 | grep "open"| cut -d "/" -f1 #Gets port numbers only
 ```
-![tee](images/image.png)
+![tee](images/image%20(1).png)
 
 
 1. Use grep with a unique word in line to eliminate unwanted lines.
