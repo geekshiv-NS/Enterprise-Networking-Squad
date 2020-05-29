@@ -14,7 +14,7 @@ example:
 ```
 nmap 127.0.0.1 |tee nmap.txt
 ```
-![tee](images/image (1).png)
+![tee](images/image%20(1).png)
 
 ### Using grep and cut to get proper output
 ```
