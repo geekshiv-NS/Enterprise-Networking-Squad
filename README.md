@@ -30,10 +30,10 @@ nmap 127.0.0.1 | grep "open"| cut -d "/" -f1 #Gets port numbers only
 
 
 
-#Scope Profiling
+## Scope Profiling
 
 
-## 1. A custom Script to gather hostnames of targets within a domain
+### 1. A custom Script to gather hostnames of targets within a domain
 
 ```sh
 #!/bin/bash
@@ -46,11 +46,11 @@ do nslookup 10.11.1.$i 10.11.1.220 | grep -v "NXDOMAIN" | grep name | cut -f1,3 
 done
 ```
 
-## 2. 
+### 2. 
 
 
 
-#Note Taking
+## Note Taking
 
 ### 1. Managing outputs when pen-testing.
 
