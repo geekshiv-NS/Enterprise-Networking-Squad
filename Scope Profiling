@@ -1,6 +1,6 @@
 #Scope Profiling
 
-```
+```bash
 #!/bin/bash
 
 ##Descr  : A Script to gather hostnames of targets within a domain
